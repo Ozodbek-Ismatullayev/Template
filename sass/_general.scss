@@ -12,11 +12,25 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: "Barlow", "Arial", sans-serif;
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1320px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
