@@ -1,0 +1,242 @@
+.header {
+  margin-right: 30px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+
+  &__mentor {
+    display: flex;
+    margin: 94px 0 24px;
+    border-radius: 10px;
+    background: radial-gradient(128.88% 128.88% at 103.9% -10.39%, #E84D70 0%, #A337F6 53.09%, #28A7ED 100%);
+    width: 255px;
+    height: 137px;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin: 62px 78px 0 24px;
+    height: 29px;
+    width: 154px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  &__text {
+    color: #ffffff;
+    height: 22px;
+    width: 108px;
+    margin: 0 123px 24px 24px;
+    opacity: 75%;
+    font-family: "Jost";
+    font-size: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  &__nav {
+    display: inline-block;
+    height: 166px;
+    border-radius: 10px;
+    padding: 24px 50px 24px 24px;
+    background-color: $white;
+    margin-bottom: 24px;
+  } 
+
+  &__roadmap {
+    flex-direction: column;
+    height: 178px;
+    width: 255px;
+    border-radius: 10px;
+    background-color: $white;
+    //display: flex;
+
+    &-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 203px;
+      height: 26px;
+      margin: 19px 24px 24px;
+    }
+
+    &-text {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      color: $dark;
+    }
+
+    &-link {
+      cursor: pointer;
+      text-decoration: underline;
+      color: $blue;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 19px;
+    }
+  }
+
+  &__planned {
+    margin: 0 24px 8px;
+    display: flex;
+    width: 207px;
+    height: 23px;
+    align-items: center;
+    justify-content: space-between;
+
+    &-title {
+      color: $open-dark;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+
+      &:before {
+        content: "";
+        margin-right: 16px;
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-image: url(./../images/pink-icon.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+      }
+    }
+
+    &-number {
+      color: $open-dark;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+
+  &__progress {
+    margin: 0 24px 8px;
+    display: flex;
+    width: 207px;
+    height: 23px;
+    align-items: center;
+    justify-content: space-between;
+
+    &-in {
+      color: $open-dark;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+
+      &:before {
+        content: "";
+        margin-right: 16px;
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-image: url(./../images/violet-icon.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+      }
+    }
+
+    &-number {
+      color: $open-dark;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+
+  &__live {
+    margin: 0 24px 8px;
+    display: flex;
+    width: 207px;
+    height: 23px;
+    align-items: center;
+    justify-content: space-between;
+
+    &-title {
+      text-decoration: none;
+      color: $open-dark;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 23px;
+
+      &:before {
+        content: "";
+        margin-right: 16px;
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background-image: url(./../images/sky-icon.svg);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: top;
+      }
+    }
+
+    &-number {
+      color: $open-dark;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 23px;
+    }
+  }
+}
+
+.right {
+  width: 825px;
+
+  &__header {
+    height: 72px;
+    background-color: $black;
+    border-radius: 10px;
+    margin: 94px 0 24px;
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      margin: 22px 16px 24px 24px;
+    }
+
+    &-title {
+      color: $white;
+      height: 26px;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  &-feedback {
+    background-color: $violet;
+    height: 44px;
+    width: 158px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: $white-blue;
+    padding: 12px 25px;
+  }
+}
+
+
+
+
+
+.ux__link {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 14px;
+}
+
+.page {
+  display: flex;
+}
